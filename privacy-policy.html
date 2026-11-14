@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Best Locker</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #F8F7FF;
+      color: #17152B;
+      line-height: 1.7;
+    }
+    main {
+      max-width: 820px;
+      margin: 36px auto;
+      background: #FFFFFF;
+      border: 1px solid #E0DCF6;
+      border-radius: 20px;
+      padding: 36px;
+    }
+    h1, h2 { color: #17152B; }
+    h1 { margin-top: 0; }
+    h2 { margin-top: 28px; font-size: 1.2rem; color: #5641F5; }
+    .meta { color: #5C5978; font-size: 0.95rem; margin-bottom: 24px; }
+    ul { padding-left: 20px; }
+    a { color: #5641F5; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy for Best Locker</h1>
+    <p class="meta">
+      <strong>Effective Date:</strong> November 14, 2026 &middot;
+      <strong>Package Name:</strong> com.bestlocker.vault &middot;
+      <strong>Contact:</strong> <a href="mailto:markogola82@gmail.com">markogola82@gmail.com</a>
+    </p>
+
+    <p>
+      Best Locker is built with a strict <strong>Zero-Cloud Architecture</strong>. Your personal photos, videos,
+      audio files, documents, notes, and passcodes are encrypted and stored locally on your device. We do not
+      operate cloud storage servers for your vault contents and never have access to your files or passwords.
+    </p>
+
+    <h2>1. Data Stored Locally on Your Device</h2>
+    <ul>
+      <li><strong>Encrypted Vault Content:</strong> Files you import into Best Locker are encrypted on-device using 256-bit AES-GCM with keys stored inside the Android Keystore hardware-backed enclave (where supported by your device).</li>
+      <li><strong>Passcodes &amp; Decoy Configuration:</strong> PINs, patterns, passwords, and decoy PINs are transformed locally using salted PBKDF2-HMAC-SHA256 hashing before saving to private app preferences. Plaintext master passcodes are never uploaded or transmitted.</li>
+      <li><strong>Local Security Audit Log:</strong> Failed unlock attempts and vault security events are recorded locally in your device database solely for your review and can be cleared at any time inside Security Settings.</li>
+    </ul>
+
+    <h2>2. Biometric Authentication</h2>
+    <p>
+      If you enable Fingerprint / Biometric unlock, Best Locker delegates authentication strictly to the Android OS
+      <code>BiometricPrompt</code> API. Best Locker never reads, copies, transmits, or stores raw fingerprint or facial biometric data.
+    </p>
+
+    <h2>3. File Access &amp; Permissions</h2>
+    <p>
+      Best Locker uses Android's zero-permission Storage Access Framework (SAF) document and photo pickers so you explicitly
+      select which files to encrypt or export. Best Locker does not request broad background access to scan your entire device storage.
+      Normal permissions declared by the app include:
+    </p>
+    <ul>
+      <li><code>INTERNET</code> &amp; <code>ACCESS_NETWORK_STATE</code>: Used exclusively to load Google AdMob advertisements.</li>
+      <li><code>USE_BIOMETRIC</code> / <code>USE_FINGERPRINT</code>: Optional hardware biometric unlock verification.</li>
+      <li><code>VIBRATE</code>: Tactile haptic feedback on PIN keypad, pattern grid, and stealth triggers.</li>
+    </ul>
+
+    <h2>4. Third-Party Advertising (Google AdMob)</h2>
+    <p>
+      Best Locker displays banner and interstitial ads via <strong>Google AdMob</strong>
+      (Publisher ID: <code>pub-1911118303200880</code>). Google Mobile Ads SDK may automatically collect limited
+      technical signals such as device type, IP-derived approximate location, ad interaction telemetry, crash/performance
+      diagnostics, and the platform Advertising ID in accordance with Google's Privacy Policy.
+    </p>
+    <p>
+      Review how Google uses information from apps that use AdMob at:
+      <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">
+        https://policies.google.com/technologies/partner-sites
+      </a>.
+      You may limit personalized advertising or reset your Advertising ID at any time in your Android, Fire Tablet, or Fire TV device settings.
+    </p>
+
+    <h2>5. Data Retention &amp; Deletion</h2>
+    <p>
+      Because Best Locker stores all encrypted files locally without external servers, you remain in complete control
+      of your data. You can permanently shred any item inside the app, export decrypted files back to device storage,
+      or delete all local vault data by uninstalling the app.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      Best Locker is a utility and privacy tool intended for general audiences and is not directed at children under
+      the age of 13 (or applicable age of digital consent in your jurisdiction). We do not knowingly collect personal
+      information from children.
+    </p>
+
+    <h2>7. Changes to This Policy &amp; Contact</h2>
+    <p>
+      We may update this Privacy Policy from time to time to reflect app updates or regulatory changes. Any updates
+      will be posted on this page with an updated effective date. If you have questions or requests regarding privacy,
+      contact us at <a href="mailto:markogola82@gmail.com">markogola82@gmail.com</a>.
+    </p>
+
+    <p><a href="./index.html">&larr; Back to Best Locker Legal Portal</a></p>
+  </main>
+</body>
+</html>
